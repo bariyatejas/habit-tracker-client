@@ -10,7 +10,7 @@ import { AdminPanel } from './components/AdminPanel'; // Import
 import { Shield } from 'lucide-react';
 
 // CONFIG
-const API_URL = process.env.API_URL'; 
+const API_URL = process.env.API_URL; 
 
 const themes = {
   sage: { name: 'Sage Garden', bg: 'bg-[#f0f4f0]', sidebar: 'bg-[#e1e8e1]', primary: '#4a7c59', secondary: '#8fb39e', accent: '#dce8dd', text: 'text-[#1a2f23]', subtext: 'text-[#4a5d50]', card: 'bg-white border-[#b7ccb8] shadow-sm', solidBtn: 'bg-[#4a7c59] text-white hover:bg-[#3a6346]', activeTab: 'bg-white text-[#2f523a] shadow-md border border-[#b7ccb8]', gridBorder: 'border-[#b7ccb8]' },
